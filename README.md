@@ -79,7 +79,6 @@ nano /etc/systemd/system/MTProxy.service
 [Unit]
 Description=MTProxy
 After=network.target
-
 [Service]
 Type=simple
 WorkingDirectory=/opt/MTProxy
